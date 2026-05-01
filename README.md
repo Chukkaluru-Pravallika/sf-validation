@@ -56,8 +56,8 @@ text
 ```bash
 git clone https://github.com/Chukkaluru-Pravallika/sf-validation.git
 cd sf-validation
-Step 2: Setup Backend
-bash
+## Step 2: Setup Backend
+
 # Install backend dependencies
 npm install
 
