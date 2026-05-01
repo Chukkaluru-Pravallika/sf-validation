@@ -62,23 +62,21 @@ cd sf-validation
 npm install
 
 # Start backend server
+cd backend
 node server.js
 Backend runs on: http://localhost:5000
 bash
 
 ### Step 3: Setup Frontend
-Open a new terminal:
 
-bash
-cd sf-validation
+## start frontend server
+cd frontend
+npm start
+Frontend runs on: http://localhost:3000
 
 # Install frontend dependencies
 cd frontend
 npm install
-
-# Start frontend application
-npm start
-Frontend runs on: http://localhost:3000
 
 ### Step 4: Configure Salesforce
 Login to your Salesforce Developer Org
