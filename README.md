@@ -150,6 +150,13 @@ Endpoint	Method	Purpose
 
 ⚠️ Warning banner = Shows number of pending changes
 
+### Screenshots
+
+https://github.com/user-attachments/assets/67a57688-07f1-4fba-b2f3-a8dc49d2faa4
+https://github.com/user-attachments/assets/013d1866-bf72-4075-becf-1ef899968148
+https://github.com/user-attachments/assets/230f3737-29df-4a82-8a3f-34185fcc9826
+
+
 ### 📝 Assignment Requirements Checklist
 Salesforce Developer Org created
 
