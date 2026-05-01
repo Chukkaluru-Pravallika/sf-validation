@@ -7,17 +7,17 @@ Salesforce Validation Rule Manager
 
 A full-stack web application that connects to Salesforce via OAuth 2.0 and allows management of validation rules on the Account object using Salesforce Tooling API.
 
-## ✨ Features
+## Features
 
-- 🔐 **OAuth 2.0 Login** - Secure authentication with Salesforce using PKCE flow
-- 📋 **Get All Validation Rules** - Fetch all validation rules from Account object
-- 📊 **View Status** - Display rules with Active/Inactive status
-- ✅ **Enable/Disable All** - Bulk activate or deactivate all rules
-- 🔄 **Toggle Single Rule** - Individual rule activation/deactivation
-- 🚀 **Deploy Changes** - Deploy all pending changes to Salesforce at once
-- 🎨 **Visual Indicators** - Pending changes highlighted in yellow
+-  **OAuth 2.0 Login** - Secure authentication with Salesforce using PKCE flow
+-  **Get All Validation Rules** - Fetch all validation rules from Account object
+-  **View Status** - Display rules with Active/Inactive status
+-  **Enable/Disable All** - Bulk activate or deactivate all rules
+-  **Toggle Single Rule** - Individual rule activation/deactivation
+-  **Deploy Changes** - Deploy all pending changes to Salesforce at once
+-  **Visual Indicators** - Pending changes highlighted in yellow
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -27,7 +27,7 @@ A full-stack web application that connects to Salesforce via OAuth 2.0 and allow
 | OAuth 2.0 PKCE | Authentication |
 | Axios | HTTP requests |
 
-## 📁 Project Structure
+##  Project Structure
 sf-validation/
 ├── server.js # Express backend
 ├── package.json # Backend dependencies
@@ -43,7 +43,7 @@ sf-validation/
 
 text
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 ### Prerequisites
 
@@ -143,12 +143,12 @@ Endpoint	Method	Purpose
 /exchange-token	POST	Exchange code for access token
 /api/validation-rules	GET	Fetch all validation rules
 /api/update-validation-rule	POST	Update rule status
-⚠️ Pending Changes Indicator
-🟡 Yellow row = Rule has pending changes
+Pending Changes Indicator
+Yellow row = Rule has pending changes
 
 (pending) text = Not yet deployed to Salesforce
 
-⚠️ Warning banner = Shows number of pending changes
+Warning banner = Shows number of pending changes
 
 ### Screenshots
 
@@ -162,7 +162,7 @@ https://github.com/user-attachments/assets/013d1866-bf72-4075-becf-1ef899968148
 https://github.com/user-attachments/assets/230f3737-29df-4a82-8a3f-34185fcc9826
 
 
-### 📝 Assignment Requirements Checklist
+###  Assignment Requirements Checklist
 Salesforce Developer Org created
 
 4-5 Validation Rules on Account object
