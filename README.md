@@ -53,10 +53,10 @@ text
 
 ### Step 1: Clone the Repository
 
-```bash
 git clone https://github.com/Chukkaluru-Pravallika/sf-validation.git
 cd sf-validation
-## Step 2: Setup Backend
+
+### Step 2: Setup Backend
 
 # Install backend dependencies
 npm install
@@ -64,8 +64,9 @@ npm install
 # Start backend server
 node server.js
 Backend runs on: http://localhost:5000
+bash
 
-Step 3: Setup Frontend
+### Step 3: Setup Frontend
 Open a new terminal:
 
 bash
@@ -79,7 +80,7 @@ npm install
 npm start
 Frontend runs on: http://localhost:3000
 
-Step 4: Configure Salesforce
+### Step 4: Configure Salesforce
 Login to your Salesforce Developer Org
 
 Go to Setup → App Manager → New Connected App
@@ -96,7 +97,7 @@ Enable OAuth Settings:
 
 Callback URL: http://localhost:3000/callback
 
-Selected OAuth Scopes:
+### Selected OAuth Scopes:
 
 Access and manage your data (api)
 
@@ -106,7 +107,7 @@ Save and note your Consumer Key and Consumer Secret
 
 Update the CLIENT_ID and CLIENT_SECRET in server.js
 
-Step 5: Create Validation Rules
+### Step 5: Create Validation Rules
 Go to Setup → Object Manager → Account → Validation Rules
 
 Created 5 validation rules (example):
@@ -123,7 +124,7 @@ Formula: LEN(Phone) != 10
 Error Message: Phone number must be exactly 10 digits
 
 
-🎯 How to Use
+### 🎯 How to Use
 Login: Click "Login to Salesforce" button
 
 View Rules: Rules automatically load after login
@@ -136,7 +137,7 @@ Deploy: Click "Deploy Changes" to save to Salesforce
 
 Reset: Use "Reset Changes" to discard pending changes
 
-🔧 API Endpoints
+### 🔧 API Endpoints
 Endpoint	Method	Purpose
 /auth/login-url	GET	Get Salesforce OAuth URL
 /exchange-token	POST	Exchange code for access token
@@ -149,7 +150,7 @@ Endpoint	Method	Purpose
 
 ⚠️ Warning banner = Shows number of pending changes
 
-📝 Assignment Requirements Checklist
+### 📝 Assignment Requirements Checklist
 Salesforce Developer Org created
 
 4-5 Validation Rules on Account object
