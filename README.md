@@ -109,7 +109,7 @@ Update the CLIENT_ID and CLIENT_SECRET in server.js
 Step 5: Create Validation Rules
 Go to Setup → Object Manager → Account → Validation Rules
 
-Create 4-5 validation rules (example):
+Created 5 validation rules (example):
 
 javascript
 // Rule 1: Name Required
@@ -121,6 +121,8 @@ Error Message: Account Name is required
 Rule Name: Phone_Length_Validation
 Formula: LEN(Phone) != 10
 Error Message: Phone number must be exactly 10 digits
+
+
 🎯 How to Use
 Login: Click "Login to Salesforce" button
 
@@ -133,13 +135,6 @@ Bulk Actions: Use "Enable All" or "Disable All"
 Deploy: Click "Deploy Changes" to save to Salesforce
 
 Reset: Use "Reset Changes" to discard pending changes
-
-📸 Screenshots
-Login Screen
-https://via.placeholder.com/800x400?text=Login+Screen
-
-Dashboard with Rules
-https://via.placeholder.com/800x400?text=Dashboard+with+Validation+Rules
 
 🔧 API Endpoints
 Endpoint	Method	Purpose
